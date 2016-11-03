@@ -19,7 +19,7 @@ class Api::V1::StatsController < ApplicationController
     sql = "
       SELECT 
         name, 
-        count(*) as count 
+        count(*) as count
       FROM 
         tags 
       JOIN

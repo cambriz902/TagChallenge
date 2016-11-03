@@ -19,9 +19,6 @@ group :development, :test do
   gem 'rspec-rails', '3.1.0'
   # Use Factory Girl for generating test data
   gem 'factory_girl_rails'
-
-  gem 'ffaker'
-
   # rpsec syntax
   gem 'shoulda-matchers', '~> 3.1.0'
   # rspec syntax
