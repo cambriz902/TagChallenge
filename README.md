@@ -24,7 +24,7 @@ I create two controllers. The Tags controller handles the creation of tags and t
 I decided to write sql in the stats_controller.rb since the query was more complicated and I didn't want to make multiple requests to the database.
 
 ## Routes
-I like to have my api directory set up as api/v#{version}/controllers. This makes it easier to keep different api versions and allow users to stay on an older version when a new version is released. This helps people using your api update their code so nothing breaks before updating to the new version.
+I like to have my api directory set up as controllers/api/v#{version}/. This makes it easier to keep different api versions and allow users to stay on an older version when a new version is released. This helps people using your api update their code so nothing breaks before updating to the new version.
 
 ## Test
 I used TDD while building this application. To run all test clone repo run bundle install and run the command rspec.
